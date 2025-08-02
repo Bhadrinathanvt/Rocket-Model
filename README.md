@@ -4,7 +4,6 @@ To use the thrust profile in Simulink from a `.mat` file:
 
 ```matlab
 load('thrust_profile.mat')  
-thrust_ts = timeseries(thrust, time);
 ```
 
 Run the above sinppet in command window.
