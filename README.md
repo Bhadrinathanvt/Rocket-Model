@@ -3,5 +3,5 @@ Place all files inside the workspace.
 To use a thrust profile in Simulink from a `.mat` file:
 
 ```matlab
-load('thrust_profile.mat')  % Load time and thrust vectors
-thrust_ts = timeseries(thrust, time);  % Create timeseries object
+load('thrust_profile.mat')  
+thrust_ts = timeseries(thrust, time);  
